@@ -10,10 +10,10 @@
 a = 5
 b = ''
 
-b = '<ul>' + '\n'
+b = '<ul>' + "\n"
 a.times do
-  b += '<li> hola </li>' + '\n'
+  b += '<li> hola </li>' + "\n"
 end
-b += '<ul>\n' + '\n'
+b += '<ul>' + "\n"
 
 puts b
